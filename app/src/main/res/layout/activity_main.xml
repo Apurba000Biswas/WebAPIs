@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/mother_container"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -16,7 +17,7 @@
             android:id="@+id/bt_random_jocks"
             android:text="Jocks"
             android:layout_margin="16dp"
-            android:onClick="onClickJocke"
+            android:onClick="onClickJocks"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
@@ -34,10 +35,17 @@
             android:layout_height="wrap_content" />
     </LinearLayout>
 
+    <TextView
+        android:id="@+id/tv_joke"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
     <GridView
         android:id="@+id/gv_images"
         android:layout_width="match_parent"
         android:numColumns="2"
-        android:layout_height="match_parent"/>
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>
