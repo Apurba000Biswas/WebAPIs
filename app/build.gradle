@@ -28,4 +28,6 @@ dependencies {
 
     //Ion
     implementation 'com.koushikdutta.ion:ion:2.+'
+    // picaso
+    implementation 'com.squareup.picasso:picasso:2.71828'
 }
